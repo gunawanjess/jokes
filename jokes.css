@@ -1,0 +1,59 @@
+  /* body */
+  body {
+    background-color: #f3f3f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  /* header */
+  header {
+    background-color: #444;
+    color: #ddd;
+    text-align: center;
+    padding: 20pt;
+    font-family: 'Trebuchet MS', sans-serif
+  }
+  
+  /* h1 inside header */
+  header h1 {
+    font-size: 24pt;
+  }
+  
+  /* center the button via parent container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* button */
+  button {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    padding: 10pt 20pt;
+    font-size: 16pt;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  
+  
+  /* jokes container */
+  #jokes {
+    background-color: #bfd;
+    margin: 50pt;
+    padding: 10pt;
+    border-radius: 15pt;
+    text-align: center;
+  }
+  
+  /* joke text */
+  #joke {
+    font-size: 18pt;
+    margin-bottom: 10pt;
+  }
+  
+ /* author text */
+  #author {
+    color: #888;
+    font-style: italic;
+  }  
